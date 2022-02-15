@@ -9,12 +9,12 @@ class LabeledContainer extends StatelessWidget {
 
 
   const LabeledContainer({
-    Key? key,
-    required  this.width,
-    this.height = double.infinity,
-    required this.color,
-    required this.text,
-    required this.textColor,
+      this.width,
+      this.height = double.infinity,
+      this.color,
+      this.text,
+      this.textColor,
+      required Key key,
 
   }) : super(key: key);
 

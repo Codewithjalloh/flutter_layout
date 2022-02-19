@@ -15,7 +15,7 @@ class StaticApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FlexScreen(),
+      home: ProfileScreen(),
     );
 
 

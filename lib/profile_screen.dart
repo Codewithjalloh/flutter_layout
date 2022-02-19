@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_layout_one/start.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({Key? key}) : super(key: key);
@@ -44,6 +45,9 @@ class ProfileScreen extends StatelessWidget {
           Text(
             "Jamess Bond 007",
             style: TextStyle(fontSize: 35, fontWeight: FontWeight.w600),
+          ),
+          StartRating(
+            value: 5,
           ),
           _buildDetailsRow("Age", "4"),
           _buildDetailsRow("Status", "Good Boy"),
